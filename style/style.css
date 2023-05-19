@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: #EEEFF1;
+    color: #C37161;
+    line-height: 2em;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #DEDBDA;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.152);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.4em;
+    line-height: 1.32em;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.7em;
+    /* margin-left: -5vw; */
+    text-align: center;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main {
+    width: 80vw;
+    margin: auto;
+    text-align: justify;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.botao {
+    color: #C37161;
+    background-color: #DEDBDA;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 1.7em;
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.botao:hover {
+    text-decoration: underline;
+    background-color: #b9b5b4;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #DEDBDA;
+    box-shadow: 5px 6px 20px #b9b5b4;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100vw;
+}
+
+.icon {
+    height: 18px;
+    width: 18px;
+}
+
+.contato {
+    color: #C37161;
+    text-decoration: none;
+}
+.contato:hover {
+    text-decoration: underline;
+}
